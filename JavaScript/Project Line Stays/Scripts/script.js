@@ -1,10 +1,11 @@
 const modelImages = ["./Photoshoot/Line_stays_by_Keitija_Janevica_steel_corset_02.jpg","./Photoshoot/Line_stays_by_Keitija_Janevica_steel_corset_03.jpg","./Photoshoot/Line_stays_by_Keitija_Janevica_steel_corset_04.jpg","./Photoshoot/Line_stays_by_Keitija_Janevica_steel_corset_05.jpg"]
 
-
 function swapImage() {
-    if {
-        
+    let imageId = document.getElementById(main-image)
+    if (imageId.src.match("./Photoshoot/Line_stays_by_Keitija_Janevica_steel_corset_01.jpg")) {
+        imageId.src = "modelImages"
     }
+
 }
 
 
